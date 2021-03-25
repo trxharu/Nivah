@@ -1,0 +1,60 @@
+.photographs-container {
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.photographs-sidebar{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.photographs-main {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photographs-sidebar li {
+    width: 100%;
+    cursor: pointer;
+    font-size: 1.6rem;
+    font-weight: 800;
+} 
+.active {
+    color: #e7b315;
+}
+
+.photographs-sidebar li:hover {
+    color: #e7b315;
+}
+
+@media (max-width: 640px) {
+    .photographs-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .w-head{
+        font-size: 1.6rem;
+    }
+    .photographs-sidebar{
+        width: 100%;
+        margin-top: 16px;
+    }
+    .photographs-main{
+        width: 100%;
+        height: 100%;
+        margin-top: 12px;
+    }
+
+    .photographs-sidebar li {
+        width: 100%;
+        cursor: pointer;
+        font-size: 1.3rem;
+        font-weight: 800;
+    } 
+}

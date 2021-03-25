@@ -1,0 +1,20 @@
+.testimonial {
+    width: 300px;
+    border: 2px solid #fff;
+    height: 350px;
+    border-radius: 4px;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+.testimonial-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 16px;
+    justify-content: center;
+    flex-direction: row;
+}
+@media (max-width: 640px) {
+    .testimonial {
+        width: 100%;
+    }
+}

@@ -1,0 +1,23 @@
+.t-core, .t-design, .t-photography,.t-postprod {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: 1px solid #fff;
+    margin-top: 2px;
+}
+
+.profile-container {
+    text-align: center;
+    width: 400px;
+    padding: 16px;
+}
+.profile-container > img {
+    border-radius: 100%;
+}
+
+@media (max-width: 640px) {
+    .profile-container {
+        width: 100%;
+    }
+}
